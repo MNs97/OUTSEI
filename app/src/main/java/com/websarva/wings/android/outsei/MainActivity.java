@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private class inner{
-　　　　 fun onClick()
+
     }
 
 }

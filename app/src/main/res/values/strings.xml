@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OUTSEI</string>
+    <string name="search_txt"> キーワードで検索</string>
 </resources>

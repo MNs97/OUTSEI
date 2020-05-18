@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:background="#FBFFB9">
+        android:background="#E9F6F9">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -24,7 +24,7 @@
             android:layout_weight="1"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:text="@string/app_name"
             android:textStyle="bold"
             android:gravity="bottom"
@@ -44,43 +44,41 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:background="#FAEBF0">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/search_txt" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:background="@drawable/search"
+                android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:gravity="center">
-            <EditText
-                android:id="@+id/editText"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:layout_marginRight="5dp"
-                android:background="#d6ecfa"
-                android:text=" キーワードで検索" />
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/search" />
-        </LinearLayout>
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="8dp">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-            </LinearLayout>
-        </ScrollView>
+        android:orientation="vertical"
+    android:layout_margin="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F7FAEB">
     </LinearLayout>
+    </ScrollView>
 
     <View
         android:layout_width="match_parent"
@@ -92,7 +90,7 @@
         android:layout_height="50dp"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
-        android:background="#FBFFB9"
+        android:background="#E9F6F9"
         android:orientation="horizontal">
 
         <ImageButton
@@ -101,7 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:background="#FBFFB9"
+            android:background="#E9F6F9"
             android:src="@drawable/home"/>
         <ImageButton
             android:id="@+id/id4_btn"
@@ -109,7 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:background="#FBFFB9"
+            android:background="#E9F6F9"
             android:src="@drawable/preparation"/>
         <ImageButton
             android:id="@+id/id5_btn"
@@ -117,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:background="#FBFFB9"
+            android:background="#E9F6F9"
             android:src="@drawable/memo"/>
         <ImageButton
             android:id="@+id/id6_btn"
@@ -125,7 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:background="#FBFFB9"
+            android:background="#E9F6F9"
             android:src="@drawable/thought"/>
     </LinearLayout>
 

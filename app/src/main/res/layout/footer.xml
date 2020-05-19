@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:orientation="vertical"
+android:background="#ffffff">
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
@@ -10,7 +14,7 @@
         android:layout_height="50dp"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
-        android:background="#FBFFB9"
+        android:background="#E9F6F9"
         android:orientation="horizontal">
 
         <ImageButton
@@ -19,7 +23,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:background="#FBFFB9"
+            android:background="#E9F6F9"
+            android:contentDescription="@string/home"
             android:src="@drawable/home"/>
         <ImageButton
             android:id="@+id/id4_btn"
@@ -27,7 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:background="#FBFFB9"
+            android:background="#E9F6F9"
+            android:contentDescription="@string/preparation"
             android:src="@drawable/preparation"/>
         <ImageButton
             android:id="@+id/id5_btn"
@@ -35,7 +41,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:background="#FBFFB9"
+            android:background="#E9F6F9"
+            android:contentDescription="@string/memo"
             android:src="@drawable/memo"/>
         <ImageButton
             android:id="@+id/id6_btn"
@@ -43,7 +50,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:background="#FBFFB9"
+            android:background="#E9F6F9"
+            android:contentDescription="@string/thought"
             android:src="@drawable/thought"/>
     </LinearLayout>
-</selector>
+
+</LinearLayout>

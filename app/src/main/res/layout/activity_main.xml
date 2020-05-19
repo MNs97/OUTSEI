@@ -16,7 +16,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:background="@drawable/symbol"
-            android:gravity="bottom" />
+            android:gravity="bottom"
+            android:contentDescription="@string/app_name"/>
         <TextView
             android:id="@+id/textView"
             android:layout_width="0dp"
@@ -34,7 +35,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="13dp"
             android:background="@drawable/info"
-            android:gravity="bottom"/>
+            android:gravity="bottom"
+            android:contentDescription="@string/info"/>
     </LinearLayout>
 
     <View
@@ -58,26 +60,27 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/search_txt" />
+            android:importantForAutofill="no"
+            android:hint="@string/search_txt"/>
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-                android:background="@drawable/search"
-                android:layout_margin="5dp"/>
+            android:background="@drawable/search"
+            android:contentDescription="@string/search"
+            android:layout_margin="5dp"/>
     </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical"
-    android:layout_margin="8dp">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="#F7FAEB">
-    </LinearLayout>
+        android:background="#EBFAEE"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        </LinearLayout>
     </ScrollView>
 
     <View
@@ -100,6 +103,7 @@
             android:layout_weight="1"
             android:scaleType="centerInside"
             android:background="#E9F6F9"
+            android:contentDescription="@string/home"
             android:src="@drawable/home"/>
         <ImageButton
             android:id="@+id/id4_btn"
@@ -108,6 +112,7 @@
             android:layout_weight="1"
             android:scaleType="centerInside"
             android:background="#E9F6F9"
+            android:contentDescription="@string/preparation"
             android:src="@drawable/preparation"/>
         <ImageButton
             android:id="@+id/id5_btn"
@@ -116,6 +121,7 @@
             android:layout_weight="1"
             android:scaleType="centerInside"
             android:background="#E9F6F9"
+            android:contentDescription="@string/memo"
             android:src="@drawable/memo"/>
         <ImageButton
             android:id="@+id/id6_btn"
@@ -124,6 +130,7 @@
             android:layout_weight="1"
             android:scaleType="centerInside"
             android:background="#E9F6F9"
+            android:contentDescription="@string/thought"
             android:src="@drawable/thought"/>
     </LinearLayout>
 

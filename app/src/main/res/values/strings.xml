@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">OUTSEI</string>
+    <string name="info"></string>
     <string name="search_txt"> キーワードで検索</string>
+    <string name="search">検索する</string>
+    <string name="home">ホーム</string>
+    <string name="preparation">読む前準備</string>
+    <string name="memo">読書中メモ</string>
+    <string name="thought">感想文作成</string>
 </resources>

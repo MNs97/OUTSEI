@@ -28,6 +28,7 @@
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
+            android:layout_marginStart="5dp"
             android:layout_marginLeft="5dp"
             android:ems="10"
             android:inputType="textPersonName"
@@ -60,23 +61,59 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/corection">
+                    android:background="@drawable/corection"
+                    android:contentDescription="@string/corection">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
                     android:text="@string/corection"
                     android:textSize="18sp"/>
             </LinearLayout>
+
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="100dp">
-                <ImageButton
-                    android:layout_width="10dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/imgtest"/>
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sample"
+                        android:contentDescription="@string/app_name"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sample"
+                        android:contentDescription="@string/app_name"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sample"
+                        android:contentDescription="@string/app_name"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sample"
+                        android:contentDescription="@string/app_name"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sample"
+                        android:contentDescription="@string/app_name"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sample"
+                        android:contentDescription="@string/app_name"/>
+                </LinearLayout>
             </HorizontalScrollView>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -87,22 +124,25 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/corection">
+                    android:background="@drawable/corection"
+                    android:contentDescription="@string/app_name">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
                     android:text="@string/corection"
                     android:textSize="18sp"/>
             </LinearLayout>
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="100dp">
+                android:layout_height="wrap_content">
                 <ImageButton
-                    android:layout_width="10dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/imgtest"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sample"
+                    android:contentDescription="@string/app_name"/>
             </HorizontalScrollView>
         </LinearLayout>
     </ScrollView>

@@ -17,12 +17,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margintop="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
         android:orientation="horizontal"
-        android:gravity="center"
-        android:background="@drawable/test">
+        android:gravity="center">
         <EditText
             android:id="@+id/editText"
             android:layout_width="0dp"
@@ -42,7 +38,7 @@
             android:layout_margin="5dp"/>
     </LinearLayout>
 
-    <ScrollView
+   <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -113,6 +109,13 @@
                         android:contentDescription="@string/app_name"/>
                 </LinearLayout>
             </HorizontalScrollView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/test"
+                android:text="@string/list"
+                android:textColor="#2ca9e1"
+                android:layout_marginTop="2dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -144,6 +147,51 @@
                     android:background="@drawable/sample"
                     android:contentDescription="@string/app_name"/>
             </HorizontalScrollView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/test"
+                android:text="@string/list"
+                android:textColor="#2ca9e1"
+                android:layout_marginTop="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="#c6e5d9"
+                android:layout_marginTop="8dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corection"
+                    android:contentDescription="@string/app_name">
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/corection"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sample"
+                    android:contentDescription="@string/app_name"/>
+            </HorizontalScrollView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/test"
+                android:text="@string/list"
+                android:textColor="#2ca9e1"
+                android:layout_marginTop="2dp"/>
         </LinearLayout>
     </ScrollView>
 

@@ -43,5 +43,4 @@ android:orientation="horizontal">
             android:background="#E9F6F9"
             android:contentDescription="@string/thought"
             android:src="@drawable/thought"/>
-
 </LinearLayout>

@@ -8,4 +8,5 @@
     <string name="memo">読書中メモ</string>
     <string name="thought">感想文作成</string>
     <string name="corection">コレクション</string>
+    <string name="list">一覧を表示</string>
 </resources>

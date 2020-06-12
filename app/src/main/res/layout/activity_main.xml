@@ -9,8 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#E9F6F9"
-        android:layout_marginBottom="5dp">
+        android:background="#E9F6F9">
         <include layout="@layout/header"></include>
     </LinearLayout>
 
@@ -18,7 +17,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:background="#F2F2F2"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
         <EditText
             android:id="@+id/editText"
             android:layout_width="0dp"
@@ -48,35 +51,47 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:background="#c6e5d9">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/corection"
-                    android:contentDescription="@string/corection">
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="3dp"
-                    android:layout_marginStart="3dp"
-                    android:text="@string/corection"
-                    android:textSize="18sp"/>
-            </LinearLayout>
 
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="bottom|left"
+                    android:text="@string/corection"
+                    android:textColor="#2ca9e1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:background="#ffffff"
+                    android:gravity="bottom|right"
+                    android:text="@string/list"
+                    android:textColor="#2ca9e1" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#758492"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="5dp">
+                    android:orientation="horizontal">
                     <ImageButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -109,89 +124,110 @@
                         android:contentDescription="@string/app_name"/>
                 </LinearLayout>
             </HorizontalScrollView>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="@drawable/test"
-                android:text="@string/list"
-                android:textColor="#2ca9e1"
-                android:layout_marginTop="2dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center"
-                android:background="#c6e5d9"
-                android:layout_marginTop="8dp">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/corection"
-                    android:contentDescription="@string/app_name">
-                </ImageView>
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:orientation="horizontal">
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="3dp"
-                    android:layout_marginStart="3dp"
-                    android:text="@string/corection"
-                    android:textSize="18sp"/>
+                    android:layout_weight="1"
+                    android:gravity="bottom|left"
+                    android:text="XXXXXX"
+                    android:textColor="#2ca9e1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:background="#ffffff"
+                    android:gravity="bottom|right"
+                    android:text="@string/list"
+                    android:textColor="#2ca9e1" />
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#758492"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <ImageButton
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/sample"
-                    android:contentDescription="@string/app_name"/>
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sample"
+                        android:contentDescription="@string/app_name" />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/sample"
+                        android:contentDescription="@string/app_name" />
+                </LinearLayout>
             </HorizontalScrollView>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="@drawable/test"
-                android:text="@string/list"
-                android:textColor="#2ca9e1"
-                android:layout_marginTop="2dp"/>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center"
-                android:background="#c6e5d9"
-                android:layout_marginTop="8dp">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/corection"
-                    android:contentDescription="@string/app_name">
-                </ImageView>
+                android:layout_marginTop="5dp"
+                android:gravity="top"
+                android:orientation="horizontal">
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="3dp"
-                    android:layout_marginStart="3dp"
-                    android:text="@string/corection"
-                    android:textSize="18sp"/>
+                    android:layout_weight="1"
+                    android:gravity="bottom|left"
+                    android:text="XXXXXX"
+                    android:textColor="#2ca9e1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:background="#ffffff"
+                    android:gravity="bottom|right"
+                    android:text="@string/list"
+                    android:textColor="#2ca9e1" />
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#758492"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <ImageButton
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/sample"
-                    android:contentDescription="@string/app_name"/>
-            </HorizontalScrollView>
-            <Button
+                    android:orientation="horizontal">
+                   <ImageButton
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/sample"
+                       android:contentDescription="@string/app_name" />
+                </LinearLayout>
+           </HorizontalScrollView>
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="@drawable/test"
-                android:text="@string/list"
-                android:textColor="#2ca9e1"
-                android:layout_marginTop="2dp"/>
+                android:layout_height="5dp"/>
+
         </LinearLayout>
     </ScrollView>
 

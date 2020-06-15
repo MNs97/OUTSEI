@@ -8,14 +8,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#E9F6F9"
         android:orientation="horizontal">
         <include layout="@layout/header"></include>
     </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/collection_txt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#2ca9e1"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
     <View
         android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="#2ca9e1"/>
+        android:layout_height="1dp"
+        android:background="#758492"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,7 +38,37 @@
         android:layout_margin="8dp">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp">
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sample"
+                android:contentDescription="@string/app_name"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sample"
+                android:contentDescription="@string/app_name" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sample"
+                android:contentDescription="@string/app_name"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sample"
+                android:contentDescription="@string/app_name"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sample"
+                android:contentDescription="@string/app_name"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sample"
+                android:contentDescription="@string/app_name"/>
         </LinearLayout>
     </ScrollView>
 

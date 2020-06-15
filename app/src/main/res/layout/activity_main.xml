@@ -8,37 +8,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="#E9F6F9">
+        android:orientation="horizontal">
         <include layout="@layout/header"></include>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:background="#F2F2F2"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp">
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:importantForAutofill="no"
-            android:hint="@string/search_txt"/>
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/search"
-            android:contentDescription="@string/search"
-            android:layout_margin="5dp"/>
     </LinearLayout>
 
    <ScrollView
@@ -52,7 +23,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,8 +33,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:gravity="bottom|left"
-                    android:text="@string/corection"
+                    android:text="@string/collection_txt"
                     android:textColor="#2ca9e1"
                     android:textSize="18sp"
                     android:textStyle="bold"/>
@@ -72,7 +41,6 @@
                     android:layout_width="150dp"
                     android:layout_height="30dp"
                     android:background="#ffffff"
-                    android:gravity="bottom|right"
                     android:text="@string/list"
                     android:textColor="#2ca9e1" />
             </LinearLayout>
@@ -135,8 +103,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:gravity="bottom|left"
-                    android:text="XXXXXX"
+                    android:text="@string/read_next"
                     android:textColor="#2ca9e1"
                     android:textSize="18sp"
                     android:textStyle="bold"/>
@@ -144,7 +111,6 @@
                     android:layout_width="150dp"
                     android:layout_height="30dp"
                     android:background="#ffffff"
-                    android:gravity="bottom|right"
                     android:text="@string/list"
                     android:textColor="#2ca9e1" />
             </LinearLayout>
@@ -188,8 +154,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:gravity="bottom|left"
-                    android:text="XXXXXX"
+                    android:text="@string/recommend"
                     android:textColor="#2ca9e1"
                     android:textSize="18sp"
                     android:textStyle="bold"/>
@@ -197,7 +162,6 @@
                     android:layout_width="150dp"
                     android:layout_height="30dp"
                     android:background="#ffffff"
-                    android:gravity="bottom|right"
                     android:text="@string/list"
                     android:textColor="#2ca9e1" />
             </LinearLayout>

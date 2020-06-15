@@ -7,6 +7,8 @@
     <string name="preparation">読む前準備</string>
     <string name="memo">読書中メモ</string>
     <string name="thought">感想文作成</string>
-    <string name="corection">コレクション</string>
-    <string name="list">すべて表示 ＞</string>
+    <string name="collection_txt">COLLECTION</string>
+    <string name="read_next">READ NEXT</string>
+    <string name="recommend">RECOMMEND</string>
+    <string name="list">Show All ＞</string>
 </resources>
